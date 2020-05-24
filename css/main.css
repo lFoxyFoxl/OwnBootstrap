@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Chelsea Market', cursive;
+}
+header{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Chelsea Market', cursive;
+    background-color: lightgrey;
+}
+button{
+    font-family: 'Chelsea Market', cursive;
+}
+header p {
+    font-size: 4vmax;
+}
+.keys_func{
+    margin-top: 3vmax;
+    display: flex;
+    justify-content: center;
+}
+.boot_form{
+    margin-top: 3vmax;
+    display: flex;
+    justify-content: center;
+}
+.form-control{
+    max-width: 70vw;
+    min-width: 70vw;
+    min-height: 5vmax;
+    height: 20vmax;
+    font-style: normal; /** italic **/
+    font-weight: normal; /** bold **/
+    text-decoration: none; /** underline  line-through **/
+    font-size: 16px;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.line_through{
+    text-decoration: line-through;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.button_func{
+    margin-left: 0.4vw;
+    border-radius: 0.33vw;
+    border: 2px solid lightgrey;
+    color: grey;
+    font-size: 2.3vmax;
+}
+.inputs_block{
+    display: flex;
+    justify-content: center;
+}
+.options{
+    margin-top: 3vmax;
+    margin-left: 0.4vmax;
+}
+
+.options select{
+    font-size: 3vmax;
+    height: 4vmax;
+    border-radius: 0.33vw;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Chelsea Market', cursive;
+    color: grey;
+    border: 2px solid lightgrey ;
+}
+/**color_accept color_ch **/
+
+.color_ch {
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 3.7vmax;
+    border: 2px solid lightgrey;
+    padding: 0;
+    border-radius: 0.33vw;
+}
+
+.color_accept{
+    border: 2px solid lightgrey;
+    border-radius: 0.33vw;
+    font-size: 2.3vmax;
+    padding: 0.2vmax;
+    height: 4vmax;
+    margin: 0;
+}
+
+.color_block{
+    display: flex;
+    justify-content: center;
+}
+.color_block input{
+    margin-right: 0.2vw;
+    width: 10vw;
+    height: 3.5vmax;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
