@@ -6,7 +6,10 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/main.css">
     <script src="script/main.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Mono:wght@300&family=PT+Serif&family=Raleway:wght@100&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Chelsea+Market&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya&family=Balsamiq+Sans&family=Open+Sans:wght@300&family=Playfair+Display&family=Yanone+Kaffeesatz:wght@200&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -53,18 +56,50 @@
                    
 
             </div>
+            
 
         </div>
 
+        
+
         <div class="form-group boot_form">
+
+            
+
             <div>
             <textarea class="form-control" id="boot_main" rows="3"></textarea>
           </div>
-            
         </div>
-        <div class="color_block">
+        <div  class="color_block">
 
+            <div class="button_bottom">
+
+                <button onclick="clear_text()">Стереть</button>
+
+            </div>
+
+<div>
                 <input onchange="changeColor()" id="color_ch" class="color_ch" type="color" name="bg" value="#ff0000">
+            </div>
+                <div class="font_ch">
+
+                    <select id="font_ch" size="1" name="hero" onchange="change_font()">
+                        <option class="f_source" value="'Source Sans Pro', sans-serif" selected>(Latin) Source Sans Pro</option>
+                        <option class="f_raleway" value="'Raleway', sans-serif">(Latin) Raleway</option>
+                        <option class="f_bebas" value="'Bebas Neue', cursive">(Latin) Bebas Neue)</option>
+                        <option class="f_dm" value="'DM Mono', monospace">(Latin) DM Mono</option>
+                        <option class="f_pt" value="'PT Serif', serif">(Latin) PT Serif</option>
+                        <option class="f_open" value="'Open Sans', sans-serif">(Latin, Cyrillic) Open Sans</option>
+                        <option class="f_balsamiq" value="'Balsamiq Sans', cursive">(Latin, Cyrillic) Balsamiq Sans</option>
+                        <option class="f_playfair" value="'Playfair Display', serif">(Latin, Cyrillic) Playfair Display</option>
+                        <option class="f_yanone" value="'Yanone Kaffeesatz', sans-serif">(Latin, Cyrillic) Yanone Kaffeesatz</option>
+                        <option class="f_alegreya" value="'Alegreya', serif">(Latin, Cyrillic) Alegreya</option>
+                       </select>
+    
+                       
+    
+                </div>
+
     
               </div>
     </div>

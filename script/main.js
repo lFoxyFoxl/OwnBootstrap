@@ -65,4 +65,16 @@ function change_size(){
     var size_value = document.getElementById('size_ch').value;
     var new_size = 2*(parseInt(size_value));
     textarea.style.fontSize = new_size+"px";
-}
+};
+
+function change_font(){
+    var textarea = document.getElementById('boot_main');
+    var font_value = document.getElementById('font_ch').value;
+    var new_font = font_value;
+    textarea.style.fontFamily = new_font;
+};
+
+function clear_text(){
+    var textarea = document.getElementById('boot_main');
+    textarea.value = "";
+};

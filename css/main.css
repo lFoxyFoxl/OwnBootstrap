@@ -113,3 +113,73 @@ header p {
     flex-direction: column;
     justify-content: center;
 }
+
+.font_ch{
+    margin-left:0.5vw ;
+}
+
+.font_ch select{
+    font-size: 1.5vmax;
+    height: 4vmax;
+    border-radius: 0.33vw;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Chelsea Market', cursive;
+    color: grey;
+    border: 2px solid lightgrey ;
+}
+
+.f_source {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.f_raleway {
+    font-family: 'Raleway', sans-serif;
+}
+
+.f_bebas {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.f_dm {
+    font-family: 'DM Mono', monospace;
+}
+
+.f_pt {
+    font-family: 'PT Serif', serif;
+}
+
+.f_open {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.f_balsamiq {
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.f_playfair {
+    font-family: 'Playfair Display', serif;
+}
+
+.f_yanone {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.f_alegreya {
+    font-family: 'Alegreya', serif;
+}
+
+.button_bottom{
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+}
+
+.button_bottom button{
+    border-radius: 0.33vw;
+    border: 2px solid lightgrey;
+    color: grey;
+    font-size: 1.6vmax;
+    padding-top: 0.8vmax;
+    padding-bottom: 0.8vmax;
+}
+
+
